@@ -20,5 +20,10 @@ int main()
     {
         cout << *it << " value " << endl;
     }
+    // reverse order
+    for (auto rev = ls.rbegin(); rev != ls.rend(); rev++)
+    {
+        cout << "reverse order " << *rev << endl;
+    }
     return 0;
 }
