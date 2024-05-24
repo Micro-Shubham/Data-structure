@@ -15,5 +15,14 @@ int main()
     {
         cout << *it << endl;
     }
+    // finding number is present or not
+    if (s.find(20) != s.end())
+    {
+        cout << "Present " << endl;
+    }
+    else
+    {
+        cout << "Absent " << endl;
+    }
     return 0;
 }
