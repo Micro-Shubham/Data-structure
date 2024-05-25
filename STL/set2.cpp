@@ -24,5 +24,14 @@ int main()
     {
         cout << "Absent " << endl;
     }
+    // another method for finding the element is present or not
+    if (s.count(24))
+    {
+        cout << "Present" << endl;
+    }
+    else
+    {
+        cout << "absent" << endl;
+    }
     return 0;
 }
