@@ -33,5 +33,9 @@ int main()
     {
         cout << "absent" << endl;
     }
+    // delete  in set 
+    s.erase(24);
+    cout << s.count(24) << endl;
+
     return 0;
 }
