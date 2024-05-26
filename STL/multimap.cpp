@@ -12,6 +12,7 @@ int main()
     m.insert(make_pair(40, 49));
     m.insert(make_pair(50, 49));
     m.insert(make_pair(30, 49));
+    m.erase(20);
     for (auto it = m.begin(); it != m.end(); it++)
     {
         cout << it->first << "   " << it->second << endl;
