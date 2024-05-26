@@ -15,8 +15,10 @@ int main()
     m.insert(make_pair(80, 40));
     m.insert(make_pair(20, 40));
     m.insert(make_pair(30, 40));
-    // insert another method
+    // insert another method but also update
     m[100] = 50;
+    // remove element
+    m.erase(20);
     for (auto it = m.begin(); it != m.end(); it++)
     {
         cout << it->first << "  " << it->second << endl;
