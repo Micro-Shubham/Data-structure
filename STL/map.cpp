@@ -6,7 +6,7 @@ int main()
     // It store data  in key-value  pair
     // It uses Red-black tree or AVL tree for implementation
     //  insert,delete , search operation  O(log(n))
-    // duplicate element element will print two times
+    // key should be unique
     //  map create
     map<int, int> m;
     m.insert(make_pair(30, 40));
@@ -15,6 +15,8 @@ int main()
     m.insert(make_pair(80, 40));
     m.insert(make_pair(20, 40));
     m.insert(make_pair(30, 40));
+    // insert another method
+    m[100] = 50;
     for (auto it = m.begin(); it != m.end(); it++)
     {
         cout << it->first << "  " << it->second << endl;
