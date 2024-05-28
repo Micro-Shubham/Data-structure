@@ -15,5 +15,7 @@ int main()
     cout << v[v.size() - 1] << endl;
     for (auto i : v)
         cout << i << endl;
+    //sort this value
+    sort(v.begin(),v.end());
     return 0;
 }
