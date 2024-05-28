@@ -13,6 +13,11 @@ int main()
     v.push_back(2345);
     // insert new element at any index
     v.insert(v.begin() + 2, 50);
+    // for (int i = 0; i < v.size(); i++)
+    // {
+    //     cout << v[i] << endl;
+    // }
+    v.clear();
     for (int i = 0; i < v.size(); i++)
     {
         cout << v[i] << endl;
