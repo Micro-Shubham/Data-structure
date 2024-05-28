@@ -13,5 +13,7 @@ int main()
     // print fist and last element
     cout << v.front() << endl;
     cout << v[v.size() - 1] << endl;
+    for (auto i : v)
+        cout << i << endl;
     return 0;
 }
