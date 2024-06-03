@@ -2,4 +2,5 @@ pairs
 ./STL/map
 ignorefile
 vector01
-capital.cpp
+capital
+armstrong
