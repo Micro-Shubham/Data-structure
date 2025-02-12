@@ -48,3 +48,4 @@ class
 seter
 getter
 constructor
+destructor
