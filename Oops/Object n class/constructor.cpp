@@ -11,15 +11,24 @@ class Customer
     int balance;
 
 public:
-    // create contructor
+    // create  default contructor
     Customer()
     {
-        cout << " hello costomer"; 
+        name = "rohit";
+        account = 3542135345;
+        balance = 34546524;
+    }
+    void display()
+    {
+        cout << name << endl;
+        cout << account << endl;
+        cout << balance << endl;
     }
 };
 int main()
 {
     Customer A1;
+    A1.display();
 
     return 0;
 }
