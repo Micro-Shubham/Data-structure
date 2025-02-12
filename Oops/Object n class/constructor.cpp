@@ -7,7 +7,7 @@ using namespace std;
 class Customer
 {
     string name;
-    int account;
+    int account_number;
     int balance;
 
 public:
@@ -15,13 +15,13 @@ public:
     Customer()
     {
         name = "rohit";
-        account = 3542135345;
+        account_number = 354215;
         balance = 34546524;
     }
     void display()
     {
         cout << name << endl;
-        cout << account << endl;
+        cout << account_number << endl;
         cout << balance << endl;
     }
 };
