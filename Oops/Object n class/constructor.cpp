@@ -18,6 +18,13 @@ public:
         account_number = 354215;
         balance = 34546524;
     }
+    // Parameterised constructor
+    Customer(string n, int b, int c)
+    {
+        name = n;
+        account_number = b;
+        balance = c;
+    }
     void display()
     {
         cout << name << endl;
@@ -27,8 +34,12 @@ public:
 };
 int main()
 {
-    Customer A1;
+    Customer A1, A2, A3;
     A1.display();
+    A2.display();
+    A3.display();
+    Customer A4("mohit", 1000, 4);
+    A4.display();
 
     return 0;
 }
