@@ -25,6 +25,14 @@ public:
         account_number = b;
         balance = c;
     }
+    // constructor overloading
+    Customer( string n , int b) 
+    {
+        name = n;
+        balance = b;
+    }
+    // inline constructor
+    // inline Customer(string nam, int bal, int acc):name(nam),balance(bal),account_number(acc){}
     void display()
     {
         cout << name << endl;
