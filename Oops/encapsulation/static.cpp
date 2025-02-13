@@ -8,6 +8,7 @@ class Customer
     int account;
     int balance;
     static int totoal_customer;
+    static int total_balance;
 
 public:
     Customer(string name, int account, int balance)
@@ -16,6 +17,7 @@ public:
         this->account = account;
         this->balance = balance;
         totoal_customer++;
+        total_balance += balance;
     }
     // display customer
     void display_customer()
@@ -26,9 +28,14 @@ public:
     {
         cout << "Total Customer:" << totoal_customer << endl;
     }
+    void total_money()
+    {
+        cout << "Total Money :" << total_balance << endl;
+    }
 };
 // totoal customer using scop resolution ::
 int Customer::totoal_customer = 0;
+int Customer::total_balance = 0;
 int main()
 {
     Customer A1("Rohit", 1, 1000);
@@ -38,5 +45,6 @@ int main()
     A2.display_customer();
     A3.display_customer();
     A1.display_total_customer();
+    A1.total_money();
     return 0;
 }
