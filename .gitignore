@@ -49,3 +49,4 @@ seter
 getter
 constructor
 destructor
+static
