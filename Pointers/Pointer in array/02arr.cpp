@@ -15,5 +15,12 @@ int main()
     {
         cout << ptr+i << endl;
     }
+
+    // print all the value 
+    for(int i = 0; i < 5; i++)
+    {
+        cout << *ptr << endl;
+        ptr++;
+    }
     return 0;
 }
