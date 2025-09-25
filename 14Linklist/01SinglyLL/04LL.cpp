@@ -9,7 +9,7 @@ int data;
 Node* next;
 
 // Constructor with both data and next node
-Node(int data1, int* next1) {
+Node(int data1, Node* next1) {
     data = data1;
     next = next1;
 }
